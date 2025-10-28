@@ -1,6 +1,2 @@
-namespace ecommerce_simulacro.Models;
-
-public class Role
-{
-    
-}
+namespace EcommerceSimulacro.Models;
+public enum Role { Admin = 0, Empresa = 1, Cliente = 2 }
